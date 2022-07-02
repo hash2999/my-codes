@@ -1,20 +1,20 @@
 public class Staff {
-	private String staffName ="";
-	private String designation = "";
-public void setName2(String d2)
-	{
-		this.staffName = d2;
-	}
-	public String getName2() {
-		return this.staffName;
-	}
-	public void setName3(String d3)
-	{
-		this.designation = d3;
-	}
-	public String getName3()
-	{
-		return this.designation;
-	}
+private String staffName,designation;
+
+void setStaffName(String staffName) {
+this.staffName = staffName;
+}
+
+void setDesignation(String designation) {
+this.designation = designation;
+}
+
+String getStaffName() {
+return this.staffName;
+}
+
+String getDesignation() {
+return this.designation;
+}
 
 }
