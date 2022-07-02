@@ -11,18 +11,3 @@ public class Department{
         System.out.println(staff.getStaffName() + " is working in the " + this.departmentName+ " department as "+ staff.getDesignation() +"." );
     }
 }
-
-public class Department {
-	private String departmentName;
-	Staff staff = new Staff();
-
-	void setDepartmentName(String departmentName){
-		this.departmentName = departmentName;
-	}
-	
-	public void displayStaff() {
-		System.out.println(staff.getStaffName()+" is working in the "+ this.departmentName+" department as "+staff.getDesignation());
-	
-		
-	}
-}
